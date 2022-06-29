@@ -2,7 +2,6 @@ export const WORDS = [
     'Nurse',
     'Cheam',
     'Throw',
-    'Klask',
     'Wales',
     'Sport',
     'Handy',
@@ -42,6 +41,6 @@ export const WORDS = [
     'Cutter',
     'Outlet',
     'Switch',
-    'Garden'
- 
+    'Garden',
+    'Boxing'
 ]

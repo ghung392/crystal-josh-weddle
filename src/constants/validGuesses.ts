@@ -30677,5 +30677,13 @@ export const VALID_GUESSES = [
   'zythem',
   'zythia',
   'zythum',
-
+  'cheam',
+  'dusen',
+  'horley',
+  'tinhat',
+  'tofino',
+  'nissan',
+  'foodie',
+  'gertie',
+  'weddle'
 ]

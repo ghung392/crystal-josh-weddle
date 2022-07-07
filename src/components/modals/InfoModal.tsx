@@ -18,7 +18,9 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         Guess the word in 6 tries. After each guess, the colour of the tiles will
         change to show how close your guess was to the word. Keep in mind that unlike Wordle, 
         the words in this Weddle are tied to Crystal and Josh just like the knot that was tied earlier! 
-        They may even be words that don't exist in normal dictionaries!
+        They may even be words that don't exist in normal dictionaries! 
+        Plural six lettered nouns are not part of the wordlist. 
+        Lastly, each word in the wordlist can only be used once for a kiss so keep refreshing if someone beat you to it!
       </p>
 
       <div className="flex justify-center mb-1 mt-4">

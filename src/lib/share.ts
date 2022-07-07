@@ -18,10 +18,7 @@ export const shareStatus = (
   handleShareToClipboard: () => void
 ) => {
   const textToShare =
-    `${GAME_TITLE} ${solutionIndex} ${
-      lost ? 'X' : guesses.length
-    }/${MAX_CHALLENGES}${isHardMode ? '*' : ''}\n\n` +
-    generateEmojiGrid(guesses, getEmojiTiles(isDarkMode, isHighContrastMode))
+    `I completed a Weddle at <inserthashtag>! ` + '💏' + '😘' + '💖' + '\n\n'
 
   const shareData = { text: textToShare }
 
@@ -77,8 +74,8 @@ const attemptShare = (shareData: object) => {
 
 const getEmojiTiles = (isDarkMode: boolean, isHighContrastMode: boolean) => {
   let tiles: string[] = []
-  tiles.push(isHighContrastMode ? '🟧' : '🟩')
-  tiles.push(isHighContrastMode ? '🟦' : '🟨')
-  tiles.push(isDarkMode ? '⬛' : '⬜')
+  tiles.push(isHighContrastMode ? 'Ã°ÂÂÂ§' : 'Ã°ÂÂÂ©')
+  tiles.push(isHighContrastMode ? 'Ã°ÂÂÂ¦' : 'Ã°ÂÂÂ¨')
+  tiles.push(isDarkMode ? 'Ã¢Â¬Â' : 'Ã¢Â¬Â')
   return tiles
 }

@@ -1,7 +1,5 @@
 import { getGuessStatuses } from './statuses'
-import { solutionIndex, unicodeSplit } from './words'
-import { GAME_TITLE } from '../constants/strings'
-import { MAX_CHALLENGES } from '../constants/settings'
+import { unicodeSplit } from './words'
 import { UAParser } from 'ua-parser-js'
 
 const webShareApiDeviceTypes: string[] = ['mobile', 'smarttv', 'wearable']
@@ -18,7 +16,7 @@ export const shareStatus = (
   handleShareToClipboard: () => void
 ) => {
   const textToShare =
-    `I completed a Weddle at <inserthashtag>! ` + '💏' + '😘' + '💖' + '\n\n'
+    `I completed a Weddle at <inserthashtag>! ` + getEmojiString() + '\n\n'
 
   const shareData = { text: textToShare }
 
@@ -72,10 +70,10 @@ const attemptShare = (shareData: object) => {
   )
 }
 
-const getEmojiTiles = (isDarkMode: boolean, isHighContrastMode: boolean) => {
-  let tiles: string[] = []
-  tiles.push(isHighContrastMode ? 'Ã°ÂÂÂ§' : 'Ã°ÂÂÂ©')
-  tiles.push(isHighContrastMode ? 'Ã°ÂÂÂ¦' : 'Ã°ÂÂÂ¨')
-  tiles.push(isDarkMode ? 'Ã¢Â¬Â' : 'Ã¢Â¬Â')
-  return tiles
+const getEmojiString = () => {
+  let emojiString: string[] = []
+  emojiString.push('💏')
+  emojiString.push('😘')
+  emojiString.push('💖')
+  return emojiString
 }

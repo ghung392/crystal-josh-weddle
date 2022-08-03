@@ -30685,5 +30685,6 @@ export const VALID_GUESSES = [
   'nissan',
   'foodie',
   'gertie',
-  'weddle'
+  'weddle',
+  'jigsaw'
 ]

@@ -34,6 +34,9 @@ export const WORDS = [
     'James',
     'Coach',
     'Gamer',
+    'Kevin',
+    'Peter',
+    'Sandy',
     'Horley',
     'Cherry',
     'Tennis',
@@ -71,5 +74,8 @@ export const WORDS = [
     'Speech',
     'Puzzle',
     'Jigsaw',
-    'Durian'
+    'Durian',
+    'Samson',
+    'Trevor',
+    'Sascha'
 ]

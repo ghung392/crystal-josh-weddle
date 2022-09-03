@@ -19,8 +19,7 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         change to show how close your guess was to the word. Keep in mind that unlike Wordle, 
         the words in this Weddle are tied to Crystal and Josh just like the knot that was tied earlier! 
         They may even be words that don't exist in normal dictionaries! 
-        Plural six lettered nouns are not part of the wordlist. 
-        Lastly, each word in the wordlist can only be used once for a kiss so keep refreshing if someone beat you to it!
+        Plural six lettered nouns and verbs are not part of the wordlist. 
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -75,10 +74,10 @@ export const InfoModal = ({ isOpen, handleClose }: Props) => {
         1 - Choose ANY kiss
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        2 - Hold a kiss for 10 seconds
+        2 - Jumping into one's arms
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        3 - Jumping into one's arms
+        3 - Hold a kiss for 10 seconds
       </p>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         4 - The Dip

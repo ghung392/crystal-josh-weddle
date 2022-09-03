@@ -37,6 +37,8 @@ export const WORDS = [
     'Kevin',
     'Peter',
     'Sandy',
+    'Stamp',
+    'Cross',
     'Horley',
     'Cherry',
     'Tennis',
@@ -77,5 +79,6 @@ export const WORDS = [
     'Durian',
     'Samson',
     'Trevor',
-    'Sascha'
+    'Sascha',
+    'Savage'
 ]

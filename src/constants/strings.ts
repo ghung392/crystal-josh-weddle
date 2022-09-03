@@ -1,6 +1,6 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Great Job! Show the MC and let the kissing begin!', 'Awesome! Show the MC and let the kissing commence!', 'Well done! Show the MC and lips will be locked!']
+export const WIN_MESSAGES = ['Great Job! Show your guess and let the kissing begin!', 'Awesome! Show your guess and let the kissing commence!', 'Well done! Show your guess and lips will be locked!']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
 export const WORD_NOT_FOUND_MESSAGE = 'Word not found'
@@ -25,3 +25,4 @@ export const TOTAL_TRIES_TEXT = 'Total tries'
 export const SUCCESS_RATE_TEXT = 'Success rate'
 export const CURRENT_STREAK_TEXT = 'Current streak'
 export const BEST_STREAK_TEXT = 'Best streak'
+export const HASHTAG = '#CrystalGotATan'
